@@ -56,8 +56,8 @@
 }
 
 .title__h3 {
-   
-    font-size: 2rem;
+    margin: 0;
+    font-size: 1rem;
     font-weight: 400;
     color: #d3d3d3;
 }
