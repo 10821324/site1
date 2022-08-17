@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="html">
+
+<head>
+<script data-ad-client="ca-pub-9124845512265668" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <meta name="theme-color" content="#000" />
+    <meta name="keywords" content="chess, learning chess , puzzels, openning,lichess,frensh defence,queen's gambit " />
+    <meta name="author" content="chess4every1" />
+    
+    <title>chess4every1</title>
+    <link rel="stylesheet" href="style1.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 1%;
+            overflow:hidden ;        /*------probléme au niveau de l'animation de link dans le masthead */
+           /* background: #333;*/
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;  
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: dotted;
+        }
+        
+        li a:hover {
+            background-color:#111;
+        }
+    </style>
+        
+    
+</head>
+
+<body>
+    
+    
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul>
+        
+        <li><a class="active" href="#home" style="font-size: medium;">Home</a></li>
+          <li><a class="active"  href="#about" style="font-size: medium;" > puzzels</a></li>
+        <li><a class="active" href="projects.html" style="font-size: medium;">openning</a></li>
+        <li><a class="active" href="#contact-form" style="font-size: medium;">Contact</a></li>
+      
+    </ul>
+    <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          position: relative;
+          background: #f1f1f1f1;
+        }
+        
+        /* Slides */
+        .mySlides {
+          display: inline;
+          padding: 90px;
+          text-align: center;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position:absolute;
+          top: 30%;
+          width: auto;
+          margin-top: -30px;
+          padding: 16px;
+          color: #888;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          position: absolute;
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+          color: white;
+        }
+        
+        /* The dot/bullet/indicator container */
+        .dot-container {
+            text-align: center;
+            padding: 20px;
+            background: #ddd;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        /* Add a background color to the active dot/circle */
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Add an italic font style to all quotes */
+        q {font-style: italic;}
+        
+        /* Add a blue color to the author */
+        .author {color: cornflowerblue;}
+    </style>
+  <div class="slideshow-container">
+
+    <div class="mySlides" style="font-size: large;">
+      <q>Chess continues to advance over time, so the players of the future will inevitably surpass me in the quality of their play, assuming the rules and regulations allow them to play serious chess. But it will likely be a long time before anyone spends 20 consecutive years as number one, as I did.e</q>
+      <p class="author">- Garry Kasparov</p>
+    </div>
+    
+    <div class="mySlides" style="font-size: large">
+      <q>We must make sure that chess will not be like a dead language, very interesting, but for a very small group.</q>
+      <p class="author">- Sytze Faber
+</p>
+    </div>
+    
+    <div class="mySlides" style="font-size: large;">
+      <q>If you don't know what to do, find your worst piece and look for a better square.</q>
+      <p class="author">- Gerard Schwarz</p>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+11    
+  
+<body class="body">
+
+    <!-- Masthead -->
+
+    <section id="masthead" class="masthead">
+        <div class="masthead-container">
+            <div class="masthead-profile-bg">
+                <div class="masthead-profile-content">
+                    <img src="chess.jpg" alt="Customer image" class="masthead__image" />
+                    <div class="masthead-profile">
+                        <h1 class="masthead__heading"><p> Hi! Welcome to our Website.</p>
+                        If you're looking for learning chess,you've came to the right place.
+                        
+                        </h1>
+                        <br/>
+                        <ul class="masthead-items">
+                            <a href="https://www.facebook.com/Chess4every1" target="_blank" class="masthead__link masthead__link--margin">Facebook</a>
+
+                            <a href="https://www.youtube.com/channel/UCbNxBAtIyODFV0EFRIiDR9w"
+                                target="_blank" class="masthead__link masthead__link--margin">Youtube</a>
+
+                            <a href="https://github.com/10821324"
+                                target="_blank" class="masthead__link masthead__link--margin">GitHub</a>
+
+                            <a href="https://www.instagram.com/chess4every1/"
+                                target="_blank" class="masthead__link masthead__link--margin">Instagram</a>
+
+                            <a href="mailto:firaslabiadh2@gmail.com" target="_blank" class="masthead__link masthead__link--margin">E-mail</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="masthead-wave">
+        <div style="height: 16vh; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #000;"></path></svg></div>
+    </div>
+
+
+    <section href="About"  id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h2 class="title__h2"> Puzzels </h2>
+                </div>
+            </div>
+            <div class="row row--projects">
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                           
+                            
+                            <h3 class="title__h3 title__h3--project">Mate in 1:c8=N#
+</h3>
+                            <div class="project-card-p"><img src="chess1.jpg" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                          
+                            <h3 class="title__h3 title__h3--project">Mate in 2:1.Nf2+..Q*f2 2.Q*h3#</h3>
+                            <div class="project-card-p"><img src="chess2.jpg" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                            
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            
+                            <h3 class="title__h3 title__h3--project">Mate in 3: 1.Rf3+..Q*f3 2.Qf3+..Kh4 3:Qg4#</h3>
+                            <div class="project-card-p"> <img src="chess3.jpg" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                             
+                             
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                          
+                            <h3 class="title__h3 title__h3--project">Mate in 4:1.Nf6+..Kg7 2.R*h7+..N*h7 3.R*h7+..Kf8 4.Qh6# </h3>
+                            <div class="project-card-p"> 
+                            <img src="chess4.jpg" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                             
+                             
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            
+                            <h3 class="title__h3 title__h3--project">Mate in5: 1.B*g7+..K*g7 2.R*h7+..B*h7 3.R*f7+..N*f7 4.Q*f7+..Kh8 5.Qf6#</h3>
+                            <div class="project-card-p"> <img src="chess5.PNG" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                             
+                             
+
+                        </div>
+
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>    
+    </section>
+
+   
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <ul class="masthead-items">
+                <a href="https://www.facebook.com/profile.php?id=100021789469513" target="_blank" class="masthead__link masthead__link--margin">facebook</a>
+
+                <a href="https://www.instagram.com/chess4every1/"
+                    target="_blank" class="masthead__link masthead__link--margin">Instagram</a>
+
+                <a href="https://github.com/10821324"
+                    target="_blank" class="masthead__link masthead__link--margin">GitHub</a>
+
+                <a href="https://www.youtube.com/channel/UCbNxBAtIyODFV0EFRIiDR9w"
+                    target="_blank" class="masthead__link masthead__link--margin">Youtube</a>
+
+                <a href="mailto:firaslabiadh2@gmail.com" target="_blank" class="masthead__link masthead__link--margin">E-mail</a>
+            </ul>
+            <p class="footer__copy">
+                &copy; chess4every1 - <a href="" target="_blank" class="project__icon project__icon--link">Contact</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
