@@ -1,1 +1,563 @@
+<!DOCTYPE html>
+<html class="html">
 
+<head>
+<script data-ad-client="ca-pub-9124845512265668" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <meta name="theme-color" content="#000" />
+    <meta name="keywords" content="chess, learning chess , puzzels, openning,lichess,frensh defence,queen's gambit " />
+    <meta name="author" content="chess4every1" />
+    
+    <title>chess4every1</title>
+    <link rel="stylesheet" href="style1.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 1%;
+            overflow:hidden ;        /*------probléme au niveau de l'animation de link dans le masthead */
+           /* background: #333;*/
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;  
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: dotted;
+        }
+        
+        li a:hover {
+            background-color:#111;
+        }
+    </style>
+        
+    
+</head>
+
+<body>
+    
+    
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul>
+        
+        <li><a class="active" href="#home" style="font-size: medium;">Bonjour </a></li>
+          <li><a class="active"  href="#about" style="font-size: medium;" > ya </a></li>
+        <li><a class="active" href="projects.html" style="font-size: medium;">habibii</a></li>
+        <li><a class="active" href="#contact-form" style="font-size: medium;">LRita</a></li>
+      
+    </ul>
+    <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          position: relative;
+          background: #f1f1f1f1;
+        }
+        
+        /* Slides */
+        .mySlides {
+          display: inline;
+          padding: 90px;
+          text-align: center;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position:absolute;
+          top: 30%;
+          width: auto;
+          margin-top: -30px;
+          padding: 16px;
+          color: #888;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          position: absolute;
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+          color: white;
+        }
+        
+        /* The dot/bullet/indicator container */
+        .dot-container {
+            text-align: center;
+            padding: 20px;
+            background: #ddd;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        /* Add a background color to the active dot/circle */
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Add an italic font style to all quotes */
+        q {font-style: italic;}
+        
+        /* Add a blue color to the author */
+        .author {color: cornflowerblue;}
+    </style>
+  <div class="slideshow-container">
+
+    <div class="mySlides" style="font-size: large;">
+      <q>Chess continues to advance over time, so the players of the future will inevitably surpass me in the quality of their play, assuming the rules and regulations allow them to play serious chess. But it will likely be a long time before anyone spends 20 consecutive years as number one, as I did.e</q>
+      <p class="author">- Garry Kasparov</p>
+    </div>
+    
+    <div class="mySlides" style="font-size: large">
+      <q>We must make sure that chess will not be like a dead language, very interesting, but for a very small group.</q>
+      <p class="author">- Sytze Faber
+</p>
+    </div>
+    
+    <div class="mySlides" style="font-size: large;">
+      <q>If you don't know what to do, find your worst piece and look for a better square.</q>
+      <p class="author">- Gerard Schwarz</p>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+11    
+  
+<body class="body">
+
+    <!-- Masthead -->
+
+    <section id="masthead" class="masthead">
+        <div class="masthead-container">
+            <div class="masthead-profile-bg">
+                <div class="masthead-profile-content">
+                    <img src="chess.jpg" alt="Customer image" class="masthead__image" />
+                    <div class="masthead-profile">
+                        <h1 class="masthead__heading"><p> Hi! Welcome to our Website.</p>
+                        If you're looking for learning chess,you've came to the right place.
+                        
+                        </h1>
+                        <br/>
+                        <ul class="masthead-items">
+                            <a href="https://www.facebook.com/Chess4every1" target="_blank" class="masthead__link masthead__link--margin">Facebook</a>
+
+                            <a href="https://www.youtube.com/channel/UCbNxBAtIyODFV0EFRIiDR9w"
+                                target="_blank" class="masthead__link masthead__link--margin">Youtube</a>
+
+                            <a href="https://github.com/10821324"
+                                target="_blank" class="masthead__link masthead__link--margin">GitHub</a>
+
+                            <a href="https://www.instagram.com/chess4every1/"
+                                target="_blank" class="masthead__link masthead__link--margin">Instagram</a>
+
+                            <a href="mailto:firaslabiadh2@gmail.com" target="_blank" class="masthead__link masthead__link--margin">E-mail</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="masthead-wave">
+        <div style="height: 16vh; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #000;"></path></svg></div>
+    </div>
+
+
+    <section href="About"  id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h2 class="title__h2"> Puzzels </h2>
+                </div>
+            </div>
+            <div class="row row--projects">
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                           
+                            
+                            <h3 class="title__h3 title__h3--project">Mate in 1:c8=N#
+</h3>
+                            <div class="project-card-p"><img src="chess1.jpg" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                          
+                            <h3 class="title__h3 title__h3--project">Mate in 2:1.Nf2+..Q*f2 2.Q*h3#</h3>
+                            <div class="project-card-p"><img src="chess2.jpg" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                            
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            
+                            <h3 class="title__h3 title__h3--project">Mate in 3: 1.Rf3+..Q*f3 2.Qf3+..Kh4 3:Qg4#</h3>
+                            <div class="project-card-p"> <img src="chess3.jpg" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                             
+                             
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                          
+                            <h3 class="title__h3 title__h3--project">Mate in 4:1.Nf6+..Kg7 2.R*h7+..N*h7 3.R*h7+..Kf8 4.Qh6# </h3>
+                            <div class="project-card-p"> 
+                            <img src="chess4.jpg" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                             
+                             
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            
+                            <h3 class="title__h3 title__h3--project">Mate in5: 1.B*g7+..K*g7 2.R*h7+..B*h7 3.R*f7+..N*f7 4.Q*f7+..Kh8 5.Qf6#</h3>
+                            <div class="project-card-p"> <img src="chess5.PNG" alt="Customer image" class="masthead__image" />
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                             
+                             
+
+                        </div>
+
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>    
+    </section>
+
+    <section href="Projects" id="projects" class="projects">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h2 class="title__h2"> Openning </h2>
+                </div>
+            </div>
+            <div class="row row--projects">
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                           
+                            
+                            <h3 class="title__h3 title__h3--project"> Ruy Lopez: Morphy Defense, Norwegian Variation</h3>
+                            <div class="project-card-p"><a href="https://www.youtube.com/watch?v=a-docrYAc54"><img src="ruy1.PNG" alt="Customer image" class="masthead__image" /></a>
+                            
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                          
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                           
+                            <h3 class="title__h3 title__h3--project">Sicilian Defense: Najdorf Variation</h3>
+                            <div class="project-card-p"><a href="https://www.youtube.com/watch?v=a8-QeEMAifA"><img src="op2.PNG" alt="Customer image" class="masthead__image" /></a>
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                            
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                           
+                            <h3 class="title__h3 title__h3--project">Sicilian Defense: Classical Variation</h3>
+                            <div class="project-card-p"><a href="https://www.youtube.com/watch?v=-TqNlOB73Rg"><img src="op3.PNG" alt="Customer image" class="masthead__image" /></a> 
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                             
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                           
+                            <h3 class="title__h3 title__h3--project">French Defense: Advance Variation, Main Line </h3>
+                            <div class="project-card-p"> <a href="https://www.youtube.com/watch?v=HCZ_O2is2II"> <img src="op4.PNG" alt="Customer image" class="masthead__image" /></a>
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                          
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col--project">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            
+                            <h3 class="title__h3 title__h3--project">Queen's Gambit Declined: Exchange Variation</h3>
+                            <div class="project-card-p"> <a href="https://www.youtube.com/watch?v=9_dauq0R_QA">  <img src="op5.PNG" alt="Customer image" class="masthead__image" /></a>
+                            </div>
+                        </div>
+                        <div class="skills-content skills-content--project">
+                
+                             
+
+                        </div>
+
+                    </div>
+                </div>
+                
+                
+            </div>
+       
+        
+    </section>
+      
+</div>
+     <section class="py-0">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-12 col-lg-6">
+              <div>
+                <div>
+                  <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">1.e4 e6 "the exchange variation"</span> </h2>
+                
+                   <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">2.d4 d5 3.exd5</span> </h2>
+                         <p class="lead">the exchange variation was played actively for a while by Garry Kasparov himself, but it cannot be dangerous for Black. It is obvious that White can create considerably more problems for his opponent only with the moves 3.Nc3, 3.Nd2 and 3.e5. still, Black must play accurately. For those chess-fans who wish to play always only for a win, I would like to tell you that according to the professional players — there are two positive results in chess — a win and a draw...</p>
+                           
+                  <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">3...exd5 4.Nf3</span> </h2>
+                                 <p class="lead">This is the most solid and flexible move for White. It is also possible for him to play 4.c4, but in general it is not so advantageous for him to clarify his plan so early in the game. Black has at his disposal a very harmonious set-up — 4...Nf6
+5.Nf3 (He can counter 5.Nc3 with 5...Bb4.) 5...Bb4+ 6.Nc3 0-0 7.Be2 dxc4. Now, White has numerous alternatives, but they all have certain drawbacks. If Black so wishes, he can ignore his additional possibilities and stick to the same plan. 8.0—0 (After 8.Bxc4, it is reasonable for him to trade immediately the light-squared bishops with 8...Re8+ 9.Be3 Be6 10.Bxe6 Rxe6 11.0-0 Nc6 12.Bg5 Bxc3 13.bxc3 Qd5 14.Bxf6 Rxf6, although White still maintains some pressure with 15.Qb3.) 8...Bg4 (The alternative for Black is — 8...Be6!?) 9.Bxc4 Nc6 10.Be3. White is more or less forced to enter that position after 4.c4. Having in mind that he has recaptured on c4 in two moves, Black should not have problems after the opening. For example: 10..Qd7 11.h3 Bh5 12.Be2 Rfe8= and the prospects of both sides are approximately equal.
+After 4.Nf3, Black has several possibilities. I will concentrate on the move 4...Bd6, because of two reasons. At first, the situation after 5.c4 dxc4 6.Bc4, may arise in the Queen's gambit accepted and it is always useful to know about similar transpositions between different openings. I have in mind the variation 1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bc4 exd4 5.exd4 Bd6 6.Nf3.
+Secondly, I think this same move combines reliability and positional justification and avoids complete symmetry enabling Black to think about winning the game after all...</p>
+                                
+              <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">4...Bd6</span> </h2>
+                                           <p class="lead">The move 4...Bg4 was popular during the 90ies of the past century, but after Kasparov found the idea 5.h3 Bh5 6.Qe2+!, it became evident that Black would have problems in this variation.
+
+6...Qe7 7.Be3 Nc6 8.Nc3 0-0-0 9.0-0-0± Kasparov  Short, Tilburg 1991.
+Black tries sometimes to provoke complications with the move 4...Nc6, but he may have difficulties in the well-known variation after 5.Bb5 Bd6 6.c4 dxc4 7.d5 a6 8.Ba4 b5 9.dxc6 bxa4 10.0—0 Ne7 11.Qxa4. White does not risk anything, while Black must still make several very accurate moves. Of course, his most reliable resource here is the symmetrical move —
+4...Nf6. 5.c4
+The famous principle of asymmetry in the Exchange variation can be illustrated here with the move —    5.Bd3.
+I should inform my readers that according to this principle Black should not be in a hurry to develop his king's knight early, since if his counterpart goes to f3, then Black should better deploy his knight to e7 and vice versa...Of course, you should not accept all these paradoxical principles so seriously after all, but still to have them in mind will always be useful. For example, in the next game Black followed all these rules and he managed to outplay gradually his opponent and to prevail in the endgame. 5...Ne7 6.0—0 Nbc6 7. h3 Nb4 8.Be2 Bf5 9.Na3 a6 1O.b3 0-0 11.c3 Nbc6 12.Nc2 Ng6 13. exd5 Bd3 Bxd3 14.Qxd3 Qd7 15.Bd2 Nce7 16.Rfe1 Qf5 17.Qxf5 Nxf5 18.g3 f6 19.Re2 Rfe8 20.Rae1 Rxe2 21.Rxe2 Kf7 22.Kg2 h5  Gorbatov — Rychagov, Moscow 2008.</p>
+                                                 
+        <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">5...dxc4 6.Bxc4 Nf6 7.0-0 0-0 8.Nc3</span> </h2> 
+                                                    <p class="lead">It is interesting for White to try to seize the initiative immediately with 8.Ne5!? Black must react very precisely: 8...Nc6! This is the right move! (It is weaker for him to opt for 8... Nbd7?! 9.Bf4 Nb6 10.Bb3 Nfd5 11.Bg3 Be6 12.Nd2 Re8 13.Ne4 Qe7 14.Rc1± and White obtained an advantage in the game Tregubov Vitiugov, Sochi, 2009.) 9.Nxc6 (Now, he cannot play 9.Bf4, because of the routine reply 9...Nxe5 10.dxe5 Ng4 and White cannot protect his pawn.) 9...bxc6. Black's pawn-structure has been compromised a bit, but he is not worse. For example: 10.Nc3 Re8 11.Qf3 Rb8 12.h3 Be6, and the dynamical factors are in his favour.</p>
+                                                       
+            <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">8...Nc6</span> </h2>   
+                                                                     <p class="lead">Starting at that moment, the opening has many things in common with the Chigorin defence. It is obvious that in this rather original and complicated opening, Black's situation is considered as acceptable, but things are not so simple.</p>
+                                                                            
+        <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">9.h3</span> </h2>   
+                                                                                <p class="lead">The seemingly active move 9.Bg5, strangely enough, is not dangerous for Black at all. 9... h6 (It is not so precise for him to play 9...Bg4, since White can counter that with 10.•Nd5, obtaining the two bishop advantage.
+10..Be7 11.Nxe7+ Qxe7 12.h3 Bxf3 13.Qxf3 Qe4 14.Qxe4 Nxe4 15.Be3 Nd6 16.b3 with some edge for him, Lputian — Romanishin, Manila 1992.) 10.Bh4 Bg4. It looks like White's best here is the forced draw after 11.h3 Bxf3 12.Qxf3 Nxd4 13.Qxb7 Rb8 14.Qxa7 Ra8 15.Qb7 Rb8, Gurevich — Azmaiparashvili, Saint Vincent 2003.</p>
+                      <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">9...h6 10.Re1</span> </h2>   
+                                           <p class="lead">It is difficult to say, which is White's most useful move here. He has tried many different ideas, but Black has good counter chances everywhere. In principle, all that is quite logical. Both sides play solidly in the centre and neither side should have problems.
+White cannot harm his opponent with 10.a3 Bf5 11.b4 Ne4! 12.Bb2 Nxc3 13.Bxc3 Qf6=
+It would be too academic for him to opt for 10. Be3 a6 11.a4 Bf5 12.Nh4 Bh7 13.Bd3 Bxd3 14.Qxd3 Nb4 15.Qd1 Re8 16.Qf3 Bf8 17.Rad1 Nbd5 18.Nf5 Kh7 19.Bf4 c6 20.Be5 Re6 Balashov — Morozevich, Samara 1998.
+White has an interesting possibility here 10.Qc2, with the idea to prevent the natural development of his opponent's lightsquared bishop. Black can react cleverly against that with 10...a6!?, or he can play simpler — 10...Nb4 11.Qb1 c6!? (White obtains some targets to attack after 11...Be6 12.Bxe6 fxe6 13.Re1 Qd7 14.Bd2 Nbd5 15.Qd3 Rad8 16.Re2 Qf7 17.Rae1 Rfe8 18.Ne4  Tkachiev  Sulava, Gonfreville 2006.) with the idea after 12.Re1, to respond with 12...Nbd5. It also deserves attention for Black to try 10...Na5 11.Bd3 Be6. 11.a3 b5 12.Bd3 Bb7 with a good counterplay.</p>
+                 
+  <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">10...Re8</span> </h2>   
+                    <p class="lead">This is the most natural response for him. He has alternatives too. The move 10...Bf5 was tested in a game against a computer by the famous expert of the French defence Alexander Morozevich. 11.d5 Ne7 12.Be3 a6 13. Bd4 Ng6 14.a4 Re8 15.Qb3 b6 16. Rxe8+ Nxe8 17.Re1 Nf6  Fritz — Morozevich, Frankfurt 2000. Two other acknowledged giants in this opening tested in whose favour the inclusion of the moves 10...a6 and 11.a3 was? 11...Re8 12.Rxe8+  13.Qd3 Qf8 14.Be3 Bd7 (It was also interesting for Black to continue with 14...b5 15.Ba2 Bb7, developing the bishop to a more active position.) Now, White exerts some positional pressure. 15. Nh4 Kh8 16.Nf5 Re8 17.Nxd6 (17. b4!?) 17...Qxd6 18.Rd1 (He cannot play 18.Bxf7, in view of 18... Ne5!) 18...Be6 19.Bxe6 Rxe6 20. d5 Ne5 21.Qd4 Re8 22.Bf4 (22. Qa7!?) 22...c5 23.dxc6 Qxd4 24. Rxd4 Nxc6=. The opponents agreed to a draw, Korchnoi — Ivanchuk, Frankfurt 1998.</p>
+                   
+    <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">11.Be3</span> </h2>   
+                    <p class="lead">The eventual consequences of the exchange of the rooks were analyzed in our previous notes. I will only mention that after 11.Rxe8+ Qxe8, White cannot prevent the development of Black's bishop to f5 - 12.Qd3? Nb4'.</p>
+                    
+
+    <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">11...Bf5</span> </h2>   
+                    <p class="lead">Black can also begin with the move 11...a6!?</p>
+                    
+
+    <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">12.a3 a6 13.Nh4 Bh7 14. Qf3 Qd7 with a very complicated position, Short — Bareev, Pula 1997.</span> </h2>   
+                     
+                     <h2 align="center" style=" font-size: x-large; color: aqua;" ><span class="font-w-4 d-block">"Sicilian"</span> </h2>
+                  <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">1 e4 c5 2 Nf3 d6 3 Bb5+ Bd7 4 Bxd7+ Nxd7 </span> </h2>
+                  <p class="lead">This is the poor cousin of 4 .. Qxd7. Al though the knight recapture develops a piece, in practice Black has favoured the more active posting of the knight on c6. On 
+                    d7 the knight places no pressure on the centre, in particular on the important d4 square, and thus allows White a safe space 
+                    advantage. The position often resembles a Hedgehog-style structure with Black solid but passive. Again White must be careful not to allow either the ... b7-b5 or ... d6-d5 breaks. I advocate playing in the same
+                    manner as we do after 4 ... Qxd7. there are two positive results in chess — a win and a draw...</p>
+                  <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">5 0-0 </span> </h2>
+                  <p class="lead">I was initially attracted to 5 c4!?, but 5 ... Ne5! is rather annoying to deal with. This is a useful idea to remember, and to try and prevent. The point is that following 6 Nxe5 dxe5 Black has the d4-outpost and pressure down the d-file which is more important than the doubled e-pawns. </p>
+                  <h2 style=" font-size: x-large; color: aqua;" ><span class="font-w-4 d-block"> 5 ... Ngf6 6 Qe2 e6 7 b3 Be7 8 Bb2 0-0 9 c4 a6 10 d4 cxd4 11 Nxd4 </span> </h2>
+                  <p class="lead">This is the main line of the 4 ... Nxd7 system and you should make sure you feel comfortable here and are au fait with the plans for both sides.</p>
+                  <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">Repertoire Outline 
+ </span> </h2>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block">1 e4 c5 2 Nf3 d6 3 Bb5+ Bd7 4 Bxd7+ Nxd7 5 0-0 Ngf6</span> </h2>
+<p class="lead">By far the most common response. Others:</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>A) </h2>
+<p class="lead"> 5 ... g6 6 c3 Bg7 (6 ... Ngf6 7 Qe2 would transpose to 5 ... Ngf6 6 C3 g6) 7 d4 CXd4 8 cxd4 is likely to transpose to the main line.</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>B) </h2>
+<p class="lead"> 5 ... e6 has been tried by the strong English Grandmaster Matthew Sadler, but is likely to transpose after 6 Qe2. </p>
+<p class="lead"> 6 Qe2  ... e6 
+     </p>
+     <p class="lead">Again by far the most common response, but practice has seen too:
+    </p>   
+    <h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>A) </h2>
+<p class="lead"> 6 ... g6 has been the choice of some strong grandmasters, but 7 c3 Bg7 8 d4 leaves White with a comfortable advantage 
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>B) </h2>
+<p class="lead">  The subtle 6 ... Rc8 is fairly rare, but has the highest-rating average of all Black's 6th moves. This is a clever idea, waiting to see how we react. However White still has good chances for an advantage. 
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>C) </h2>
+<p class="lead">6 ... Qc7 is a worse version of 'b'  
+</p> 
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>D) </h2>
+<p class="lead">6 ... e5 doesn't prevent us occupying the centre .  
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>7</h2>
+<p class="lead">b3 g6 is exceedingly rare, but as this was once Garry Kasparov's choice we should take it seriously.  
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>8</h2>
+<p class="lead">Bb2 0-0 9 C4  
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>This is the main-line position of 4 ... Nxd7 and I examine various replies by Black here: 
+</h2>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>A)</h2>
+<p class="lead"> 9 ... Rc8 as tried by the strong Chinese Grandmaster Bu Xiangzhi,  
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>B)</h2>
+<p class="lead">9 ... Qc7 also tried by some strong GMs 
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>C)</h2>
+<p class="lead">9 ... Re8, the choice of the Bosnian Grandmaster Ivan Sokolov, 
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>D)</h2>
+<p class="lead">9 ... e5 is definitely an important possibility and was tried by the Latvian-Spaniard grandmaster Alexei Shirov, 
+</p>
+<h2 style=" font-size: x-large; color: aqua;"><span class="font-w-4 d-block"></span>E)</h2>
+<p class="lead">9 ... a6 10 d4 cxd4 11 Nxd4 is the most important option and has been tried by both Magnus Carlsen and the World's strongest female player, Judit Polgar.
+</p>
+            </div>
+          </div> 
+         </div>
+         </section>     
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <ul class="masthead-items">
+                <a href="https://www.facebook.com/profile.php?id=100021789469513" target="_blank" class="masthead__link masthead__link--margin">facebook</a>
+
+                <a href="https://www.instagram.com/chess4every1/"
+                    target="_blank" class="masthead__link masthead__link--margin">Instagram</a>
+
+                <a href="https://github.com/10821324"
+                    target="_blank" class="masthead__link masthead__link--margin">GitHub</a>
+
+                <a href="https://www.youtube.com/channel/UCbNxBAtIyODFV0EFRIiDR9w"
+                    target="_blank" class="masthead__link masthead__link--margin">Youtube</a>
+
+                <a href="mailto:firaslabiadh2@gmail.com" target="_blank" class="masthead__link masthead__link--margin">E-mail</a>
+            </ul>
+            <p class="footer__copy">
+                &copy; chess4every1 - <a href="" target="_blank" class="project__icon project__icon--link">Contact</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
