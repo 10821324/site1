@@ -52,10 +52,10 @@
     </button>
     <ul>
         
-        <li><a class="active" href="index.html" style="font-size: medium;">Home</a></li>
+        <li><a class="active" href="Home" style="font-size: medium;">Home</a></li>
           <li><a class="active"  href="#about" style="font-size: medium;" > News</a></li>
         <li><a class="active" href="projects.html" style="font-size: medium;">chess</a></li>
-        <li><a class="active" href="#contact-form" style="font-size: medium;">Contact</a></li>
+        <li><a class="active" href="#Contact-us" style="font-size: medium;">Contact</a></li>
       
     </ul>
     <style>
