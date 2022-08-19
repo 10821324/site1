@@ -116,6 +116,15 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.masthead__heading2 {
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    background: -webkit-linear-gradient(-70deg, #a2facf, #d2d2d2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .masthead-items {
     margin-bottom: 15px;
