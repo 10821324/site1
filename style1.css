@@ -70,7 +70,8 @@
     padding: 10rem 0;
     position: relative;
     width: 100%;
-    background: #545657;
+    background-image : url("Sans titre.jpg");
+
 }
 
 .masthead-container {
