@@ -70,7 +70,7 @@
     padding: 2rem 0;
     position: relative;
     width: 100%;
-    background: #ffffff;
+   background: -webkit-linear-gradient(-70deg, #8f8d8d,#ffffff);;
 
 }
 
