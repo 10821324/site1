@@ -70,7 +70,7 @@
     padding: 10rem 0;
     position: relative;
     width: 100%;
-    background: #5ef5f7;
+    background: #ffffff;
 
 }
 
@@ -191,7 +191,7 @@
     width: 100%;
     height: 20vh;
     height: 16vh;
-    background: #5ef5f7;
+    background: #ffffff;
 }
 
 .about-timeline {
@@ -204,10 +204,10 @@
     margin-left: 4rem;
     margin-bottom: 2rem;
     max-width: 30rem;
-    color: #d3d3d3;
+    color: #ffffff;
     border-radius: 2rem;
     padding-bottom: 2rem;
-    background:#5ef5f7;
+    background:#ffffff;
     border: .2rem solid#181a1b;
 }
 
@@ -264,7 +264,7 @@
     padding: .5rem 1rem;
     border-radius: 2rem;
     font-size: 1.25rem;
-    background: #050505;
+    background: #ffffff;
     border: .1rem solid #181a1b;
     margin: .6rem .2rem;
     color: #37D6FF;
