@@ -57,7 +57,7 @@
 </head>
 
 <body>
-
+<center>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
     </button>
@@ -148,66 +148,7 @@
         /* Add a blue color to the author */
         .author {color: cornflowerblue;}
     </style>
-  <div class="slideshow-container">
-
-    <div class="mySlides" style="font-size: large;">
-      <q>Chess continues to advance over time, so the players of the future will inevitably surpass me in the quality of their play, assuming the rules and regulations allow them to play serious chess. But it will likely be a long time before anyone spends 20 consecutive years as number one, as I did.e</q>
-      <p class="author">- Garry Kasparov</p>
-    </div>
-    
-    <div class="mySlides" style="font-size: large">
-      <q>We must make sure that chess will not be like a dead language, very interesting, but for a very small group.</q>
-      <p class="author">- Sytze Faber
-</p>
-    </div>
-    
-    <div class="mySlides" style="font-size: large ;">
-     <div class="project-card-1"> <img src="chess5.PNG" alt="Customer image" class="masthead__image" />
-                            </div>
-     
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-    
-    </div>
-    
-    <div class="dot-container">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
-    
-    <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-    }
-    </script>
-11    
-  
+ 
 <body class="body">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9124845512265668"
      crossorigin="anonymous"></script>
