@@ -144,7 +144,7 @@
     -webkit-transition: color .3s;
     -moz-transition: color .3s;
     transition: color .3s;
-    color: #d3d3d3;
+    color: #fff;
 }
 
 .masthead__link:hover {
