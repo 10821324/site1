@@ -97,11 +97,11 @@
 }
 
 .masthead__image {
-    width: 17rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
    
    
-    margin-right: 3rem;
+    margin-right: 5rem;
 }
 
 .masthead-profile {
@@ -118,7 +118,7 @@
     -webkit-text-fill-color: transparent;
 }
 .masthead__heading2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
     margin-bottom: 1rem;
     background: -webkit-linear-gradient(-70deg, #0e0e0e, #d2d2d2);
