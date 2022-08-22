@@ -27,7 +27,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 300rem;
+    max-width: 120rem;
     padding-top: 3rem;
     min-height: 50vh;
 }
@@ -97,8 +97,8 @@
 }
 
 .masthead__image {
-    width: 20rem;
-    height: 20rem;
+    width: 10rem;
+    height: 10rem;
    
    
     margin-right: 5rem;
