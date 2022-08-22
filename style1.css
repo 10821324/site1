@@ -97,8 +97,8 @@
 }
 
 .masthead__image {
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
    
    
     margin-right: 5rem;
@@ -109,7 +109,7 @@
 }
 
 .masthead__heading {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: italic;
     margin-bottom: 1rem;
     background: -webkit-linear-gradient(-70deg, #a2facf, #64acff);
