@@ -127,7 +127,7 @@
     -webkit-text-fill-color: transparent;
 }
 .masthead__heading2 {
-    font-size: 1.5rem;
+    font-size: 4rem;
     font-style: italic;
     margin-bottom: 1rem;
     background: -webkit-linear-gradient(-70deg, #0e0e0e, #d2d2d2);
@@ -136,7 +136,7 @@
     -webkit-text-fill-color: transparent;
 }
 .masthead__heading3 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-style: italic;
     margin-bottom: 1rem;
     background: -webkit-linear-gradient(-70deg, #fcfc70, #fffee8);
