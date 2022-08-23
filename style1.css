@@ -73,6 +73,14 @@
    background: -webkit-linear-gradient(-70deg, #8f8d8d,#ffffff);;
 
 }
+.masthead1 {
+    padding: 2rem 0;
+    position: relative;
+    width: 100%;
+   background: -webkit-linear-gradient(-70deg, #8f8d8d,#ffffff);
+
+}
+
 
 .masthead-container {
     display: flex;
