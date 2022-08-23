@@ -172,6 +172,16 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.masthead__heading5 {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    background: #0e0e0e;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .masthead-items {
     margin-bottom: 15px;
     padding: 0;
