@@ -20,6 +20,14 @@
     <title>Go World</title>
     
       
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        
+                
+    
+    
     
     
     
@@ -51,15 +59,26 @@
       
      </ul>
   <form class="form-inline ml-3" >
-    <div class="input-group"  >
-      <input type="text" class="form-control" placeholder="Search" />
-        <div class="input-group-append">
-          <button type="button" class="btn bg-light">
-            <i class="fas fa-search text-muted"></i>
-          </button>
+   
+         <div class="input-box">
+             <div class="input-group"  >
+            <input type="text" placeholder="Search...">
+            <span class="icon">
+                <i class="uil uil-search search-icon"></i>
+            </span>
+            <i class="uil uil-times close-icon"></i>
+        </div>
+
+        <script>
+            let inputBox = document.querySelector(".input-box"),
+                searchIcon = document.querySelector(".icon"),
+                closeIcon = document.querySelector(".close-icon");
+
+            searchIcon.addEventListener("click", () => inputBox.classList.add("open"));
+            closeIcon.addEventListener("click", () => inputBox.classList.remove("open"));
+        </script>
   
-        
-  
+
        </div>
      </div>
    </form>
@@ -67,7 +86,12 @@
  </nav>  
     
          <!--end nav--> 
-
+       
+      <input type="text" class="form-control" placeholder="Search" />
+        <div class="input-group-append">
+          <button type="button" class="btn bg-light">
+            <i class="fas fa-search text-muted"></i>
+   </button>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
