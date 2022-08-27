@@ -234,6 +234,12 @@ align-content:center;
     align-items: center;
 }
 
+.masthead-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .masthead-profile-bg {
     padding: 5rem;
     margin: 5rem;
