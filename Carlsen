@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9124845512265668"
+     crossorigin="anonymous"></script>
+    <meta name="keywords" content="chess, learning chess , puzzels, openning,lichess,frensh defence,queen's gambit,sport,news,foot,football,space, " />
+    <meta name="author" content="chess4every1" />
+    <link rel="stylesheet" href="style1.css" />
+     <link rel="stylesheet" href="style2.css" />
+    
+   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    
+    <title>Go World</title>
+    
+      <style>
+p.ex1 {
+  margin: 50px;
+}
+    p.d {
+  font-size: 150%;
+}
+        p.c {
+  font-size: 150%;
+}
+        div.c {
+  border: 2px solid;
+  padding: 20px; 
+  width: 100%;
+  resize: both;
+  overflow: auto;
+    
+}
+</style>
+    
+    
+    
+  </head>
+  
+  <body background="10.png";>
+  
+   <!--nav--> 
+<nav class="navbar navbar-expand-md navbar-light bg-dark "   >
+  <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+       <span class="navbar-toggler-icon"></span>                                                                                            
+    </button>                                                                                            
+  <div class="collapse navbar-collapse justify-content-between" id="nav" >
+    <ul class="navbar-nav"  >
+        <li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="Home.html" style="font-size: medium;">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3"  href="#about" style="font-size: medium;" > News</a></li>
+        <li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="projects.html" style="font-size: medium;">chess</a></li>
+  
+        <!--<li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="space.html" style="font-size: medium;">Space</a></li>-->
+        <!--<li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="Technologies.html" style="font-size: medium;">Technologie</a></li>-->
+        <!--<li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="Sport.html" style="font-size: medium;">Sport</a></li>-->
+        <li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#Contact-us" style="font-size: medium;">Contact</a></li>
+      
+     </ul>
+  
+  </div>
+ </nav>  
+    
+         <!--end nav--> 
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+  
+  
+  <section class="p-5">
+   
+  <center>
+  <br>
+  
+<div class="c" class="image-box">
+     <img class="gImg" src="carlsen.jpg" alt="" width=80% >
+  <br>
+  <p></p>
+    
+  <p class="c" class="ex1">Do you remember your youth? What were you doing when you reached puberty? Magnus, he became a chess master at only thirteen years old! Only three players did better: Russia's Karjakin, India's Neji and American's Abhimanyu Mishra, who holds the record for the title in 12 years 4 months!
+This Norwegian chess whiz, is also a five-time world champion. Born in Tønsberg on November 30th 1990,he began playing chess at the age of six and a year later had joined Norway's national team. He would go on to win many titles and break various records in his career. He is the only person to ever hold both the individual and team gold medals twice. His perfect game against the Chinese chess champion at the 2011 London Chess Classic is one of his most notable victories. The reason that this is particularly relevant to us as a society and how it could apply to our perception of chess is because of Carlsen's obsession with the game. 
+He raise his Elo ranking to 2889, 33 points more than the previous record held by Garry Kasparov. Magnus is on another planet! 
+He plays eight hours every day, seven days a week, without fail. He also spends an exceptional amount of time working on his openings preparation and memorizing the moves.It goes without saying that to maintain such a supernatural Elo, he loses very little, and only against certain world chess luminaries.
+The severity of Carlsen's commitment to chess can be seen in the fact that he has never had a single day off throughout his professional career, The mental fortitude required of Carlsen in one of the most demanding games ever played on an epic scale brings an interesting perspective to our understanding of the psychological impact that playing chess can take on a player.
+Since Magnus arrived in the world of chess and learned the openings by heart, he has gone out of fashion! Whereas, Garry Kasparov believes that Magnus has an innate sense of playing Chemistry like former World Champion Raul Capablanca and Anatoly Karpov.he seems to see good moves immediately and places his pieces naturally on the right squares.
+In 2014 in Dubai, he became the first player to be champion in blitz (five minutes each), rapid games (twenty-five minutes each) and classic games. If for insiders, the "real" title is that of classic games, this result demonstrates all the same the stranglehold of Magnus on high-level chess! For the little story.He retained all three of his titles in December 2019 in Moscow but lost the Rapid Games World Championship title in 2021.
+This chess miracle amazed not only Kasparov and chess lovers, but all the Norway his native country, where Magnus Carlsen is a true icon. During the last world championship, two thirds of Norwegians were in front of their television!
+So year after year, the title of world champion used to be the privilege of this young man..but every beginning has an end, and this is what Carlsen declared, saying:
+“I lack motivation for another title fight”
+Sad news, isn't it? Nevertheless, the desire of our hero must be respected, and we must not forget the pleasure he gave to the world of chess.
+As a finish we wanna say that Raoul Capablanca, Bobby Fischer, Anatoly Karpov, Garry Kasparov are names that make the eyes of chess players shine. Magnus Carlsen is now one of these legends and can claim the title of best player of all time with an elo of 2889 .. the question now .. is it possible that someone will appear who can play better than this legend or are we always going to see the name Magnus Carlsen as the strongest?</p>
+      
+  
+  
+  <br>
+  <br>
+  <br>
+      <div class="logo_icons">
+            <a href="#">
+              <img class="logoImg" src="chess.jpg" alt="">
+               
+              <div class="text_content">
+                <span class="name">Magnus Carles</span>
+                <span class="followers">51k followers</span>
+              </div>
+            </a>
+            <div class="icons">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-arrow-down"></i>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+
+    
+    
+    
+  
+  
+  
+</div>
+  </body>
+</html>
